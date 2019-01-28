@@ -17,12 +17,12 @@ PM> Install-Package CassandraCSharpDriver
 3. Go to your Cosmos DB Emulator install location and open PowerShell window in that location. Default install path is `C:\Program Files\Azure Cosmos DB Emulator`
 4. Cassandra Endpoint is not enabled by default. To enable it run Cosmos DB Emulator from CMD/PowerShell using following command: 
 ```powershell
-.\CosmosDB.Emulator.exe /EnableCassandra
+.\CosmosDB.Emulator.exe /EnableCassandraEndpoint
 ```
  5. Cassandra Endpoint will be opened on port `10350` by default. If you want to change that port run Emulator wiht follwing command:
  
  ```powershell
-.\CosmosDB.Emulator.exe /EnableCassandra /CassandraPort=<port_number>
+.\CosmosDB.Emulator.exe /EnableCassandraEndpoint /CassandraPort=<port_number>
 ```
 6. Endpoints in the sample are preconfigured to run with the Emulator. You don't have to change anything.
 7. Compile and Run the project.
