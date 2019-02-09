@@ -1,7 +1,7 @@
 # Developing a .net app with Cassandra API using Azure Cosmos DB Emulator
 Azure Cosmos DB is Microsoft's globally distributed multi-model database service. You can quickly create and query document, table, key-value, and graph databases, all of which benefit from the global distribution and horizontal scale capabilities at the core of Azure Cosmos DB. 
 
-Cosmos Emulator now supports Cassandra API (src: http://blog.mashfords.com/2018/12/19/azure-cosmos-db-emulator-support-for-cassandra-api/), however no one bothered to mentioned how to run it and how to connect to it. The Cosmos DB Emulator documentation page also seems to be out of date, so I decided to figure it out on my own.
+Cosmos Emulator now supports Cassandra API (src: http://blog.mashfords.com/2018/12/19/azure-cosmos-db-emulator-support-for-cassandra-api/), however no one bothered to mention how to run it and how to connect to it. The Cosmos DB Emulator documentation page also seems to be out of date, so I decided to figure it out on my own.
 
 This quick start demonstrates how to connect to Cosmos DB Emulator's Cassandra Endpoint. The code is based on https://github.com/Azure-Samples/azure-cosmos-db-cassandra-dotnet-getting-started. You'll build a user profile console app, output as shown in the following image, with sample data.
 
